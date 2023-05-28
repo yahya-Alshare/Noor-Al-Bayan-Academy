@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.1.0-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/Responsive iPad.css">
+    <title>لوحة التحكم - مساراتي التعليمية</title>
+    <link rel="icon" href="../img/2.png">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="../img/logo.png" alt="logo" />
+      </a>
+    </div>
+    <nav>
+      <ul>
+
+        <li><a href="../student-login/index.html">الدورات</a></li>
+        <li><a href="../who are we.html">من نحن</a></li>
+        <li><a href="../Connect us.html">تواصل معنا</a></li>
+        <li><a class="active" href="index.html">بوابة الطالب</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+      
+    </div>
+    <div class="btn-log">
+      <div>
+       <a style="margin-left: 20px;" href="#"><img src="../img/UK Flag.png" alt=""></a>
+       <a style="margin-left: 20px;" href="Favorite.html"> <img src="../img/Icon material-favorite-border.png" alt=""></a>
+       <a style="margin-left: 20px;" href="../student-login/shopping cart.html"> <img src="../img/Icon awesome-opencart.png" alt=""> </a>
+       <a style="margin-left: 20px;" href="#" onclick="drop()" class="btn-drop"> <img src="../img/Notification.png" alt=""> 
+     
+           
+        <ul class="drop drop-not close">
+         <li class="drop-titel" >
+        الإشعارات
+         </li>
+        <li>
+          <div class="boxs-drop">
+            <div class="drop-img">
+              <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+            </div>
+            <div class="drop-content">
+              
+            <span>  مساراتي التعليمية     </span>
+             إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+            
+            <div class="drop-time">1 hour ago</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="boxs-drop">
+            <div class="drop-img">
+              <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+            </div>
+            <div class="drop-content">
+              
+            <span>  مساراتي التعليمية     </span>
+             إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+            
+            <div class="drop-time">1 hour ago</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="boxs-drop">
+            <div class="drop-img">
+              <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+            </div>
+            <div class="drop-content">
+              
+            <span>  مساراتي التعليمية     </span>
+             إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+            
+            <div class="drop-time">1 hour ago</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      </a>
+      </div>
+      
+      <div class="btn-log-avatar" onclick="drop_profile()">
+        <span>Yousef Aljazzar</span>
+        <img src="../img/avatar.png" alt="">
+        <i class="fa-solid fa-chevron-down"></i>
+
+
+        <ul class="drop drop-profile close">
+          <li class="drop-titel" >
+         الملف الشخصي
+          </li>
+         <li>
+         <a href="Profile .html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>الملف الشخصي</li></a>
+         <a href="Arabic course.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>مساراتي التعليمية</li></a>
+         <a href="Pay bills.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>فواتير الدفع</li></a>
+         <a href="Administration alerts.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>تنبيهات الإدارة</li></a>
+         <a href="#"> <li class="i-red">  <i class="fa-solid fa-arrow-right-from-bracket fa-rotate-180 i-red"></i> تسجيل الخروج </li></a>
+         </li>
+        
+       </ul>
+      </div>
+      
+  </div>
+
+
+    <nav class="mobil-menue ">
+      <div class="menu-close">
+        <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+      </div>
+
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="../Connect us.html">من نحن</a></li>
+        <li><a href="../Connect us.html">تواصل معنا</a></li>
+        <li><a href="index.html">بوابة الطالب</a></li>
+      </ul>
+
+
+    </nav>
+    
+  </header>
+  <div class="side-icon">
+    <i class="fa-solid fa-house" onclick="sidebare(this)"></i>
+  </div>
+  <div class="sidebar">
+    <div class="sid-info">
+    <img src="../img/avatar.png" alt="">
+    <img class="sid-info-img" src="../img/Oval Status.png" alt="">
+    <div class="sid-info-na">
+        <p>يوسف نعمان الجزار</p>
+        <span>نص تجريبي اختياري</span>
+    </div>
+    </div>
+    <ul>
+      <a href="index.html"> <li> <i class="fa-solid fa-chart-simple"></i> لوحة التحكم  </li></a>
+      <a  onclick="mas_cou()"> <li>  <i class="fa-solid fa-book-open "></i> مساراتي التعليمية  <i id="i-down" class="fa-solid fa-chevron-down "></i></li></a>
+
+      <div class="mas-cou close">
+
+        <a href="Arabic course.html"> <li> <i class="fa-solid fa-file"></i>  لغة عربية  </li></a>
+        <a href="Arabic course.html"> <li> <i class="fa-solid fa-file"></i>  لغة انجليزية  </li></a>
+
+
+      </div>
+     
+      <a href="Educational files.html"> <li> <i class="fa-solid fa-file"></i> ملفات تعليمية  </li></a>
+      <a href="Teacher evaluation.html"> <li>  <i class="fa-solid fa-pen-to-square"></i> تقييم المعلمين </li></a>
+      <a href="Profile .html"> <li class="side-active"> <i class="fa-regular fa-user"></i> الملف الشخصي  </li></a>
+      <a href="complaint.html"> <li>  <i class="fa-solid fa-paper-plane"></i> ارسال شكوى </li></a>
+      <a href="Calendar.html"> <li> <i class="fa-solid fa-calendar-days"></i>  التقويم</li></a>
+      <a href="Administration alerts.html"> <li>  <i class="fa-solid fa-bell"></i> تنبيهات الادارة </li></a>
+      <a href="Pay bills.html"> <li>  <i class="fa-solid fa-file-invoice-dollar"></i> فواتير الدفع </li></a>
+       <li class="i-red">  <i class="fa-solid fa-arrow-right-from-bracket fa-rotate-180 i-red"></i> تسجيل الخروج </li>
+   
+   </ul>
+  </div>
+
+      <!-- main dash -->
+      <section class="main-dash">
+        <img src="../img/Ellipse 82.png" alt="" class="dash-shap">
+        <h2>  الملف الشخصي</h2>
+         <div class="dash-box-course">
+            <div class="ar-btn dash-ar-btn">
+                <ul class="nav-level">
+                  <li class="active-dash-ar" onclick="firslevel()">المستوى الأول</li>
+                  <li onclick="scendlevel()" > المستوى الثاني</li>
+                 
+                </ul>
+                <hr>
+              </div>
+              
+
+              <div class="first-level show-level">
+                
+                <div class="co-continer">
+                    <h3 class="se-titel">المعلومات الأساسية</h3>
+                    <form action="">
+                      <div class="filed-main">
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني">البريد الالكتروني</label><br>
+                          <input type="email" placeholder="أدخل البريد الالكتروني">
+            
+                        </div>
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني">الاسم كامل بالعربية</label><br>
+                          <input type="text" placeholder="ادخل اسمك بالكامل باللغة العربية">
+            
+                        </div>
+                      </div>
+                      <div class="filed-main">
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني">الاسم كامل بالانجليزية</label> <span>اختياري</span>  <br>
+                          <input type="text" placeholder="ادخل اسمك بالكامل باللغة الانجليزية">
+            
+                        </div>
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني">تاريخ الميلاد</label><br>
+                          <input type="date" placeholder="" value="2020/10/10">
+            
+                        </div>
+                      </div>
+                      <div class="filed-main">
+                        <div class="filed-half tel-select">
+                          <label for="البريد الالكتروني">رقم الهاتف </label><br>
+                          <input type="tel" placeholder="رقم الهاتف">
+                             <select name="" id="">
+                              <option value="">+720</option>
+                             </select>
+                          
+            
+                        </div>
+                        <div class="filed-half tel-select">
+                          <label for=" "> رقم الواتساب</label><br>
+                          <input type="tel" placeholder="الرقم المسجل في واتساب">
+                          <select name="" id="">
+                            <option value="">+720</option>
+                           </select>
+            
+                        </div>
+                      </div>
+                      <div class="filed-main">
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني">المؤهل العلمي</label><br>
+                          <select>
+                            <option>ثانوي</option>
+                          </select>
+            
+                        </div>
+                      </div>
+            
+                      <div class="filed-main">
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني"> الجنسية</label><br>
+                          <select>
+                            <option>فلسطين</option>
+                            <option>فلسطين</option>
+                          </select>
+            
+                        </div>
+            
+                        <div class="filed-half">
+                          <label for="البريد الالكتروني">بلد الإقامة</label><br>
+                          <select>
+                            <option>فلسطين</option>
+                          </select>
+            
+                        </div>
+                      </div>
+            
+                    </form>
+                    <button class="btn-bas"> حفظ</button>
+                  </div>
+
+              </div>
+
+              <div class="scend-level">
+
+               <div class="co-continer">
+        <h3 class="se-titel"> الصورة الشخصية</h3>
+        <div class="continer-img-profile">
+          <br><br>
+          
+          <img src="../img/Group 302.png" alt="">
+          <br><br>
+          <p>معاينة الصورة</p>
+          <span>   200 × 200 &nbsp; &nbsp; بكسل كحد أدنى ، بحد أقصى 6000 × 6000 بكسل  </span>
+          <br>
+          <span>  PNG or JPG&nbsp; :صيغة الصورة المقبولة </span><br>
+          <span> 2 MB&nbsp;  :حجم الصورة المقبول </span><br>
+          <div class="custom-file" style="width: 45%; margin: 40px 138px 100px;">
+                     
+            <input type="file" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" id="custom-file-label" for="customFile" style="width: 100%;"></label>
+          </div>
+          
+          
+          <br><br><br><br>
+        <button class="btn-bas"> حفظ</button>
+          <br>
+        </div>
+       
+      </div>
+              </div>
+              
+         </div>
+
+      </section>
+
+           <!-- footer -->
+           <footer>
+            <div class="footer">
+              <div class="footer-box">
+                <p>اكاديمية نور البيان</p>
+                <ul>
+                  <li><a href="../who are we.html">من نحن</a></li>
+                  <li class="footer-li"><a href="../Protection and security.html">الحماية والامان</a></li>
+                  <li class="footer-li"><a href="../terms of use.html">شروط الاستخدام </a></li>
+                  <li><a href="../privacy policy.html">سياسة الخصوصية</a></li>
+                </ul>
+              </div>
+              <div class="footer-box">
+                <p>المساعدة</p>
+                <ul>
+                  <li><a href="../common questions.html"> الأسئلة الشائعة</a></li>
+                  <li class="footer-li"><a href="../Connect us.html">تواصل معنا</a></li>
+                </ul>
+              </div>
+              <div class="footer-box-socail">
+                <img src="../img/WhatsApp Image 2023-02-15 at 04.08.29.png" alt="" srcset="">
+                <p>جميع الدروس سيتم بثها على برنامج مايكروسوفت تيمز</p>
+                <br>
+                <p>وسائل الدفع المتاحة</p>
+                <ul class="foot-pay">
+                  <li><img src="../img/Stc_pay.svg.png" alt=""></li>
+                  <li><img src="../img/Mask Group 5.png" alt=""></li>
+                </ul>
+              </div>
+            </div>
+            <div class="copy-right"> 
+              <p> تابعنا على</p>
+              <ul class="foot-social">
+                <li>
+                  <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+    
+            </div>
+            <div class="copy-right">© جميع الحقوق محفوظة | | أكاديمية نور البيان 2023 </div>
+          </footer>
+      <!-- end footer -->
+
+      <script src="../js/script.js"></script>
+</body>
+</html>

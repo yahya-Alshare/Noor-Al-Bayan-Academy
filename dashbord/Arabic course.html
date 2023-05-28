@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fontawesome-free-6.1.0-web/css/all.min.css">
+    <title>لوحة التحكم - مساراتي التعليمية</title>
+    <link rel="icon" href="../img/2.png">
+</head>
+<body>
+
+
+  <div class="puope-quiz close ">
+    
+    <div class="poupe-clos">
+      <i class="fa-solid fa-xmark" onclick="close_quiz()"></i>
+    </div>
+    علامتك
+    <h4>100/100</h4>
+  </div>
+
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="../img/logo.png" alt="logo" />
+      </a>
+    </div>
+    <nav>
+      <ul>
+
+        <li><a href="../student-login/index.html">الدورات</a></li>
+        <li><a href="../who are we.html">من نحن</a></li>
+        <li><a href="../Connect us.html">تواصل معنا</a></li>
+        <li><a class="active" href="index.html">بوابة الطالب</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon">
+      <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+      
+    </div>
+    <div class="btn-log">
+      <div>
+       <a style="margin-left: 20px;" href="#"><img src="../img/UK Flag.png" alt=""></a>
+       <a style="margin-left: 20px;" href="Favorite.html"> <img src="../img/Icon material-favorite-border.png" alt=""></a>
+       <a style="margin-left: 20px;" href="../student-login/shopping cart.html"> <img src="../img/Icon awesome-opencart.png" alt=""> </a>
+       <a style="margin-left: 20px;" href="#" onclick="drop()" class="btn-drop"> <img src="../img/Notification.png" alt=""> 
+     
+           
+        <ul class="drop drop-not close">
+         <li class="drop-titel" >
+        الإشعارات
+         </li>
+        <li>
+          <div class="boxs-drop">
+            <div class="drop-img">
+              <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+            </div>
+            <div class="drop-content">
+              
+            <span>  مساراتي التعليمية     </span>
+             إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+            
+            <div class="drop-time">1 hour ago</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="boxs-drop">
+            <div class="drop-img">
+              <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+            </div>
+            <div class="drop-content">
+              
+            <span>  مساراتي التعليمية     </span>
+             إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+            
+            <div class="drop-time">1 hour ago</div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="boxs-drop">
+            <div class="drop-img">
+              <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+            </div>
+            <div class="drop-content">
+              
+            <span>  مساراتي التعليمية     </span>
+             إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+            
+            <div class="drop-time">1 hour ago</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      </a>
+      </div>
+      
+      <div class="btn-log-avatar" onclick="drop_profile()">
+        <span>Yousef Aljazzar</span>
+        <img src="../img/avatar.png" alt="">
+        <i class="fa-solid fa-chevron-down"></i>
+
+
+        <ul class="drop drop-profile close">
+          <li class="drop-titel" >
+         الملف الشخصي
+          </li>
+         <li>
+         <a href="Profile .html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>الملف الشخصي</li></a>
+         <a href="Arabic course.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>مساراتي التعليمية</li></a>
+         <a href="Pay bills.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>فواتير الدفع</li></a>
+         <a href="Administration alerts.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>تنبيهات الإدارة</li></a>
+         <a href="#"> <li class="i-red">  <i class="fa-solid fa-arrow-right-from-bracket fa-rotate-180 i-red"></i> تسجيل الخروج </li></a>
+         </li>
+        
+       </ul>
+      </div>
+      
+  </div>
+
+
+    <nav class="mobil-menue ">
+      <div class="menu-close">
+        <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+      </div>
+
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="../Connect us.html">من نحن</a></li>
+        <li><a href="../Connect us.html">تواصل معنا</a></li>
+        <li><a href="index.html">بوابة الطالب</a></li>
+      </ul>
+
+    </nav>
+    
+  </header>
+
+  <div class="side-icon">
+    <i class="fa-solid fa-house" onclick="sidebare(this)"></i>
+  </div>
+  <div class="sidebar">
+    <div class="sid-info">
+    <img src="../img/avatar.png" alt="">
+    <img class="sid-info-img" src="../img/Oval Status.png" alt="">
+    <div class="sid-info-na">
+        <p>يوسف نعمان الجزار</p>
+        <span>نص تجريبي اختياري</span>
+    </div>
+    </div>
+    <ul>
+      <a href="index.html"> <li> <i class="fa-solid fa-chart-simple"></i> لوحة التحكم  </li></a>
+      <a  onclick="mas_cou()"> <li>  <i class="fa-solid fa-book-open "></i> مساراتي التعليمية  <i id="i-down" class="fa-solid fa-chevron-down "></i></li></a>
+
+      <div class="mas-cou close">
+
+        <a href="Arabic course.html"> <li class="side-active"> <i class="fa-solid fa-file"></i>  لغة عربية  </li></a>
+        <a href="Arabic course.html"> <li> <i class="fa-solid fa-file"></i>  لغة انجليزية  </li></a>
+
+
+      </div>
+     
+      <a href="Educational files.html"> <li> <i class="fa-solid fa-file"></i> ملفات تعليمية  </li></a>
+      <a href="Teacher evaluation.html"> <li>  <i class="fa-solid fa-pen-to-square"></i> تقييم المعلمين </li></a>
+       <li> <i class="fa-regular fa-user"></i> الملف الشخصي  </li>
+      <a href="complaint.html"> <li>  <i class="fa-solid fa-paper-plane"></i> ارسال شكوى </li></a>
+       <li> <i class="fa-solid fa-calendar-days"></i>  التقويم</li>
+      <a href="Administration alerts.html"> <li>  <i class="fa-solid fa-bell"></i> تنبيهات الادارة </li></a>
+      <a href="Pay bills.html"> <li>  <i class="fa-solid fa-file-invoice-dollar"></i> فواتير الدفع </li></a>
+       <li class="i-red">  <i class="fa-solid fa-arrow-right-from-bracket fa-rotate-180 i-red"></i> تسجيل الخروج </li>
+   
+   </ul>
+  </div>
+
+      <!-- main dash -->
+      <section class="main-dash">
+
+        <img src="../img/Ellipse 82.png" alt="" class="dash-shap">
+        <img src="../img/Ellipse 82.png" alt="" class="dash-shap dash-shap1">
+
+        <h2>مسار  اللغة العربية</h2>
+         <div class="dash-box-course">
+            <div class="ar-btn dash-ar-btn">
+                <ul class="nav-level">
+                  <li class="active-dash-ar" onclick="firslevel()">المستوى الأول</li>
+                  <li onclick="scendlevel()" > المستوى الثاني</li>
+                 
+                </ul>
+                <hr>
+              </div>
+              <div class="ar-btn dash-ar-btn">
+                <ul class="nav-intefac">
+                  <li class="active-dash-ar2" onclick="interface1()">الوصف</li>
+                  <li onclick="interface2()"> المحتويات</li>
+                  <li onclick="interface3()">مدرس المساق</li>
+                  <li onclick="interface4()">جدول المحاضرات</li>
+                  <li onclick="interface5()">الاختبار</li>
+                 
+                </ul>
+                <hr>
+              </div>
+              <div class="first-level show-level">
+                <div class="dash-interface dash-interface-show das-descrip">
+                <div class="terms-content">
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                       <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                    </span>
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                   </span>
+                   <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                       <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                    </span>
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                   </span>
+                   <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                 <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                 <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                   
+                   <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                       <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                    </span>
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                   </span>
+               
+                   </div>
+              </div>
+
+              <div class="dash-interface das-contents ">
+                <div class="ar-text ar-text-active">
+                  <div class="ar-text-rad">
+                    
+                      <span>
+                   
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+        
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                  </div>
+                  <div class="ar-text-rad">
+                    <input type="radio" name="ar-text-radio" id="">
+                      <span>
+                        <img src="../img/Path 1650.png" alt="">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+        
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                  </div>
+                
+               
+                  <div class="more-box educational-course mor-active">
+                  
+  
+                    <div class="about-me-text co-cu">
+                       <h3> الدروس</h3>  
+                   <hr>
+                   
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+                        
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;     1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                2-
+                                &nbsp;
+                                <span>
+                                  How Flutter & Dart Code Gets Compiled To Native Apps
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                3-
+                                &nbsp;
+                                <span>
+                                  Running the App on a Real Android Device
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    </div>
+                    
+                </div>
+                   
+                </div>
+
+              </div>
+
+
+                  <div class="dash-interface das-course-instructor">
+              <div class="ar-text course-instructor ar-text-active">
+                <div class="ar-info">
+                 <img src="../img/simo.png" alt="">
+                 <h2>م. يوسف نعمان الجزار</h2>
+                </div>
+                 <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+                   <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                </span>
+                <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+                 <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+              </span>
+              <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+               <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+            </span>
+            <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+             <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+          </span>
+          
+                  
+               </div>
+              
+
+              </div>
+
+              
+              <div class="dash-interface das-schedules">
+                <div class="dash-box-tabel">
+                  <div class="ft-bcn ft-tabel ft-bcn-active">
+                         <p class="tabel-tiel">جدول المحاضرات</p> 
+                      <td class="ta-tr">
+                                 </tdclass="ta-tr"><table>
+                         <thead>
+                             <tr>
+                              <th></th>
+                              <th>السبت</th>
+                              <th>الاحد</th>
+                              <th>الاثنين</th>
+                              <th>الثلاثاء</th>
+                              <th>الاربعاء</th>
+                              <th>الخميس</th>
+                              <th>الجمعة</th>
+                              
+                         </tr></thead>
+                         
+                         <tbody>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr> 
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td> 
+                             </tr>
+                             
+                         </tbody>
+                      </table>
+                 </div>
+              </div>
+              </div>
+
+              <div class="dash-interface das-test">
+                <div class="ar-text course-instructor ar-text-active">
+                  <div class="co-continer">
+                    <h3 class="co-titel"> إختبار اجتياز مستوى </h3>
+                    <div class="quiz">
+        
+                    
+                     <div class="quiz-die">
+                      <span>المستوى</span>
+                      <button class="btn-level">المستوى الاول</button>
+                     </div>
+        
+                     <div class="quiz-die">
+                      <span>المستوى</span>
+                      <button class="btn-level">  100</button>
+                     </div>
+        
+                     <div class="quiz-die">
+                      <span>المستوى</span>
+                      <button class="btn-level">  0/100</button>
+                     </div>
+        
+                    </div>
+                    <button class="btn-bas"> هيا بنا نبدأ الاختبار </button>
+                  </div>
+                  <div class="co-continer co-continer-quiz ">
+                    
+        <div class="de-quiz">
+                        <div class="level-titel" style="display: flex;align-items: center;">
+              <table>
+                <thead>
+                  <tr>
+                    <th>عدد الاسئلة</th>
+                    <th>100</th>
+                  </tr>
+                </thead>
+              </table>
+                        </div>
+                        <div class="quiz-num">
+                          <table>
+                       
+                          <thead>
+                            <tr>
+                              <td>الأسئلة المجابة</td>
+                              <th>26</th>
+                            </tr>
+                            <tr>
+                              <td>الاسئلة المتبقية</td>
+                              <th>74</th>
+                             </tr>
+                        </thead>
+                     
+                       </table>
+        
+                       <div class="an-qu">
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+        
+                        <span></span><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+        
+                       </div>
+                       <button class="end-quiz" onclick="end_quiz()">انهاء الاختبار</button>
+                        </div>
+                       
+                      </div>
+                      <div class="qu-quiz">
+                       <div class="level-titel">
+                     <h5>إختبار اجتياز مستوى</h5>
+                     <p>يتم حفظ الإجابات بشكل تلقائي , عند الانتهاء من الاختبار , اضغط على انهاء الاختبار </p>
+                    </div> 
+                    <div class="question">
+                      <h1>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</h1>
+                    </div>
+                    <div class="choice">
+           <textarea name="" id="" cols="30" rows="10" placeholder="اكتب إجابتك"></textarea>
+
+                    </div>
+                  <div class="ag-btn">
+                    <button>التالي</button>
+                    <button>السابق</button>
+                  </div>
+                      </div>
+        
+                      
+        
+                   
+                    
+                  </div>
+                   
+                </div>
+              </div>
+              </div>
+
+              <div class="scend-level">
+                <div class="dash-interface dash-interface-show das-descrip">
+                <div class="terms-content">
+                    <h2>yahha</h2>
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                       <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                    </span>
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                   </span>
+                   <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                       <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                    </span>
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                   </span>
+                   <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                 <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                 <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                   
+                   <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+               
+                       <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                    </span>
+                    
+                    <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+                   </span>
+               
+                   </div>
+              </div>
+
+              <div class="dash-interface das-contents ">
+                <div class="ar-text ar-text-active">
+                  <div class="ar-text-rad">
+                    
+                      <span>
+                   
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+        
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                  </div>
+                  <div class="ar-text-rad">
+                    <input type="radio" name="ar-text-radio" id="">
+                      <span>
+                   
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+        
+                    <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                 </span>
+                  </div>
+                
+               
+                  <div class="more-box educational-course mor-active">
+                  
+  
+                    <div class="about-me-text co-cu">
+                       <h3> الدروس</h3>  
+                   <hr>
+                   
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                2-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                3-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    <div class="laren-unit">
+                      <div class="unite-titel">
+                        <p>الوحدة الاولى &nbsp;المقدمة / &nbsp;4 / 4
+  
+                        <i class="fa-solid fa-caret-down" onclick="laren_unite(this)"></i>
+                      </p> 
+                      <span>
+  
+                        دقيقة &nbsp; 57     &nbsp;     ساعة  &nbsp;       1 : مدة الشرح             
+                             </span>
+                      </div>
+                      
+                             <ul class=" unit-list">
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                1-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                2-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                              <li>
+                                <i class="fa-sharp fa-solid fa-bookmark"></i>
+                                &nbsp;
+                                3-
+                                &nbsp;
+                                <span>
+                                  ماهي الفللاتر
+                               
+                               <br>   <span><i class="fa-solid fa-video"></i> 50 دقيقة</span>
+                                </span>
+                              </li>
+                             </ul>
+                    </div>
+                    </div>
+                    
+                </div>
+                   
+                </div>
+
+              </div>
+
+
+                  <div class="dash-interface das-course-instructor">
+              <div class="ar-text course-instructor ar-text-active">
+                <div class="ar-info">
+                 <img src="../img/simo.png" alt="">
+                 <h2>م. يوسف نعمان الجزار</h2>
+                </div>
+                 <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+                   <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+                </span>
+                <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+                 <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+              </span>
+              <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+               <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+            </span>
+            <span>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+       
+             <span>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الف</span>
+          </span>
+          
+                  
+               </div>
+              
+
+              </div>
+
+              
+              <div class="dash-interface das-schedules">
+                <div class="dash-box-tabel">
+                  <div class="ft-bcn ft-tabel ft-bcn-active">
+                         <p class="tabel-tiel">جدول المحاضرات</p> 
+                      <td class="ta-tr">
+                                 </tdclass="ta-tr"><table>
+                         <thead>
+                             <tr>
+                              <th></th>
+                             <th>السبت</th>
+                             <th>الاحد</th>
+                             <th>الاثنين</th>
+                             <th>الثلاثاء</th>
+                             <th>الاربعاء</th>
+                             <th>الخميس</th>
+                             <th>الجمعة</th>
+                         </tr></thead>
+                         <tbody>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr> 
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td> 
+                             </tr>
+                             <tr>
+                                 <td>00-04</td>
+                                 <td></td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td class="ta-tr"></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td class="ta-tr"></td> 
+                             </tr>
+                             
+                         </tbody>
+                      </table>
+                 </div>
+              </div>
+              </div>
+
+              <div class="dash-interface das-test">
+                <div class="ar-text course-instructor ar-text-active">
+                  <div class="co-continer">
+                    <h3 class="co-titel"> إختبار اجتياز مستوى </h3>
+                    <div class="quiz">
+        
+                    
+                     <div class="quiz-die">
+                      <span>المستوى</span>
+                      <button class="btn-level">المستوى الاول</button>
+                     </div>
+        
+                     <div class="quiz-die">
+                      <span>المستوى</span>
+                      <button class="btn-level">  100</button>
+                     </div>
+        
+                     <div class="quiz-die">
+                      <span>المستوى</span>
+                      <button class="btn-level">  0/100</button>
+                     </div>
+        
+                    </div>
+                    <button class="btn-bas"> هيا بنا نبدأ الاختبار </button>
+                  </div>
+                  <div class="co-continer co-continer-quiz ">
+                    
+        <div class="de-quiz">
+                        <div class="level-titel" style="display: flex;align-items: center;">
+              <table>
+                <thead>
+                  <tr>
+                    <th>عدد الاسئلة</th>
+                    <th>100</th>
+                  </tr>
+                </thead>
+              </table>
+                        </div>
+                        <div class="quiz-num">
+                          <table>
+                       
+                          <thead>
+                            <tr>
+                              <td>الأسئلة المجابة</td>
+                              <th>76</th>
+                            </tr>
+                            <tr>
+                              <td>الأسئلة المجابة</td>
+                              <th>76</th>
+                             </tr>
+                        </thead>
+                     
+                       </table>
+        
+                       <div class="an-qu">
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+                        <span class="q-active"></span>
+        
+                        <span></span><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+        
+                       </div>
+                       <button class="end-quiz">انهاء الاختبار</button>
+                        </div>
+                       
+                      </div>
+                      <div class="qu-quiz">
+                       <div class="level-titel">
+                     <h5>إختبار تحديد مستوى</h5>
+                     <p>يتم حفظ الإجابات بشكل تلقائي , عند الانتهاء من الاختبار , اضغط على انهاء الاختبار </p>
+                    </div> 
+                    <div class="question">
+                      <h1>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى</h1>
+                    </div>
+                    <div class="choice">
+                      <textarea name="" id="" cols="30" rows="10" placeholder="اكتب إجابتك"></textarea>
+                    </div>
+                  <div class="ag-btn">
+                    <button>التالي</button>
+                    <button>السابق</button>
+                  </div>
+                      </div>
+        
+                      
+        
+                   
+                    
+                  </div>
+                   
+                </div>
+              </div>
+              </div>
+              
+         </div>
+
+      </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-box">
+          <p>اكاديمية نور البيان</p>
+          <ul>
+            <li><a href="../who are we.html">من نحن</a></li>
+            <li class="footer-li"><a href="../Protection and security.html">الحماية والامان</a></li>
+            <li class="footer-li"><a href="../terms of use.html">شروط الاستخدام </a></li>
+            <li><a href="../privacy policy.html">سياسة الخصوصية</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <p>المساعدة</p>
+          <ul>
+            <li><a href="../common questions.html"> الأسئلة الشائعة</a></li>
+            <li class="footer-li"><a href="../Connect us.html">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-box-socail">
+          <img src="../img/WhatsApp Image 2023-02-15 at 04.08.29.png" alt="" srcset="">
+          <p>جميع الدروس سيتم بثها على برنامج مايكروسوفت تيمز</p>
+          <br>
+          <p>وسائل الدفع المتاحة</p>
+          <ul class="foot-pay">
+            <li><img src="../img/Stc_pay.svg.png" alt=""></li>
+            <li><img src="../img/Mask Group 5.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy-right"> 
+        <p> تابعنا على</p>
+        <ul class="foot-social">
+          <li>
+            <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="copy-right">© جميع الحقوق محفوظة | | أكاديمية نور البيان 2023 </div>
+    </footer>
+<!-- end footer -->
+
+      <script src="../js/script.js"></script>
+</body>
+</html>

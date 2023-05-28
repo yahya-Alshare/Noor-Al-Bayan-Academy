@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أكاديمية نور البيان</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../img/2.png">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="../css//fontawesome-free-6.1.0-web/css/all.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="../img/logo.png" alt="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+  
+
+          <li><a class="active" href="index.html">الدورات</a></li>
+          <li><a href="../who are we.html">من نحن</a></li>
+          <li><a href="../Connect us.html">تواصل معنا</a></li>
+          <li><a href="../dashbord/index.html">بوابة الطالب</a></li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+        
+      </div>
+      <div class="btn-log">
+        <div>
+         <a style="margin-left: 20px;" href="#"><img src="../img/UK Flag.png" alt=""></a>
+         <a style="margin-left: 20px;" href="../dashbord/Favorite.html"> <img src="../img/Icon material-favorite-border.png" alt=""></a>
+         <a style="margin-left: 20px;" href="../student-login/shopping cart.html"> <img src="../img/Icon awesome-opencart.png" alt=""> </a>
+         <a style="margin-left: 20px;" href="#" onclick="drop()" class="btn-drop"> <img src="../img/Notification.png" alt=""> 
+       
+             
+          <ul class="drop drop-not close">
+           <li class="drop-titel" >
+          الإشعارات
+           </li>
+          <li>
+            <div class="boxs-drop">
+              <div class="drop-img">
+                <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+              </div>
+              <div class="drop-content">
+                
+              <span>  مساراتي التعليمية     </span>
+               إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+              
+              <div class="drop-time">1 hour ago</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="boxs-drop">
+              <div class="drop-img">
+                <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+              </div>
+              <div class="drop-content">
+                
+              <span>  مساراتي التعليمية     </span>
+               إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+              
+              <div class="drop-time">1 hour ago</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="boxs-drop">
+              <div class="drop-img">
+                <img src="../img/profile-picture-4.jpg" alt="" class="drop-img-profile">
+              </div>
+              <div class="drop-content">
+                
+              <span>  مساراتي التعليمية     </span>
+               إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+
+              
+              <div class="drop-time">1 hour ago</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        </a>
+        </div>
+        
+        <div class="btn-log-avatar" onclick="drop_profile()">
+          <span>Yousef Aljazzar</span>
+          <img src="../img/avatar.png" alt="">
+          <i class="fa-solid fa-chevron-down"></i>
+
+
+          <ul class="drop drop-profile close">
+            <li class="drop-titel" >
+           الملف الشخصي
+            </li>
+           <li>
+           <a href="../dashbord/Profile .html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>الملف الشخصي</li></a>
+           <a href="../dashbord/Arabic course.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>مساراتي التعليمية</li></a>
+           <a href="../dashbord/Pay bills.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>فواتير الدفع</li></a>
+           <a href="../dashbord/Administration alerts.html"> <li>  <i style="margin-left: 5px;" class="fa-regular fa-user"></i>تنبيهات الإدارة</li></a>
+           <a href="#"> <li class="i-red">  <i class="fa-solid fa-arrow-right-from-bracket fa-rotate-180 i-red"></i> تسجيل الخروج </li></a>
+           </li>
+          
+         </ul>
+        </div>
+        
+    </div>
+
+
+      <nav class="mobil-menue ">
+        <div class="menu-close">
+          <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+        </div>
+
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="../who are we.html">من نحن</a></li>
+          <li><a href="course.html">الدورات</a></li>
+          <li><a href="../Find  teacher.html">اعثر على معلم</a></li>
+          <li><a href="../Connect us.html">تواصل معنا</a></li>
+        </ul>
+
+        <div class="but-login">
+          <a href="login in.html">تسجيل الدخول</a>
+          <a href="sgin in.html">التسجيل</a>
+        </div>
+      </nav>
+      
+    </header>
+    <div class="message" id="message">
+      <p class="p-message-2">الدفع</p>
+      <button>الالغاء</button>
+    </div>
+ <section class="main-secation terms se-course ">
+  <img src="../img/Ellipse 82.png" alt="" class="dash-shap">
+  <img src="../img/Ellipse 82.png" alt="" class="dash-shap dash-shap1 ">
+  <img src="../img/Ellipse 82.png" alt="" class="dash-shap dash-shap3 ">
+
+
+   <div class="cart-boxs">
+    
+<div class="cart-box-prodect cart-box-pay bank-alnmia ">
+    <p class="se-pa">
+        قم بتحويل قيمة الفاتورة 200$ الى حساباتنا البنكية في الأسفل , ثم قم بتأكيد الدفع 
+        
+    </p>
+    <form action="">
+      <br><br><br>
+       <p class="p-cart-boxs">تأكيد عملية الدفع</p>
+       <br><br>
+         <div class="card-date">
+            <div class="card-dat">
+           <label for="">طريقة الدفع</label><br>
+           <input type="text" name="" id="" class="inp-full" placeholder="تحويل بنكي">
+         </div>
+         <div class="card-dat">
+           <label for="">   المبلغ</label><br>
+           <input type="number" name="" id="" class="inp-full" placeholder="">
+         </div>
+         </div>
+         <br>
+         <div class="card-date">
+           <div class="card-dat">
+          <label for=""> العملة</label><br>
+          <input type="text" name="" id="" class="inp-full" placeholder="ريال سعودي">
+        </div>
+        <div class="card-dat">
+          <label for=""> تاريخ الدفع</label><br>
+          <input type="date" name="" id="">
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br><br><br>
+        <p>إضافة معلومات الدفع</p>
+        <br><br>
+        <div class="card-date">
+           <div class="card-dat">
+          <label for="">اسم صاحب الحساب المحول منه</label><br>
+          <input type="text" name="" id=""  placeholder="ادخل اسم صاحب الحساب المحول منه">
+        </div>
+        <div class="card-dat">
+          <label for="">   رقم الحساب المحول منه</label><br>
+          <input type="number" name="" id=""  placeholder="ادخل رقم الحساب المحول منه">
+        </div>
+        </div>
+        <br><br><br><br>
+        <p class="se-pa">
+           نرجوا ارفاق صورة ل وصل الايصال 
+           
+       </p>
+
+       <div class="custom-file" >
+                     
+           <input type="file" class="custom-file-input" id="customFile">
+           <label class="custom-file-label" for="customFile" style="width: 100%;"></label>
+         </div>
+         <div class="bank-btn">
+           <button class="btn-bas">تأكيد الدفع</button>
+         </div>
+         
+   </form>
+        <div class="se-pa">
+
+        <h4>
+        بيانات الحساب البنكي للاكاديمية
+     </h4>  
+       <br><br>
+         <table>
+            <tbody>
+                
+                <tr>
+                    <td>Account holder</td>
+                    <td>YOUSEF N. ALGAZZAR</td>
+                    <td>SWIFT/BIC</td>
+                    <td>CMFGUS33</td>
+                </tr>
+
+               
+
+                <tr>
+                    <td>Account holder</td>
+                    <td>9600012232568345</td>
+                    <td>ACH and Wire routing number</td>
+                     <td>084009519</td>
+                </tr>
+                <tr>
+                    <td>Account holder</td>
+                    <td>Checking</td>
+                    <td>Wise's address
+                    </td>
+                    <td>30 W. 26th Street, Sixth Floor
+                        <br>
+                        New York NY 10010
+                        <br>
+                        United States                    </td>
+                   
+                </tr>
+            </tbody>
+         </table>
+        
+   </div>
+    
+</div>
+   
+   
+   </div>
+ </section>
+ <!-- course-ar-content -->
+      
+  <!-- brif-2 -->
+
+  <!-- end brif-2 -->
+          <!-- footer -->
+          <footer>
+            <div class="footer">
+              <div class="footer-box">
+                <p>اكاديمية نور البيان</p>
+                <ul>
+                  <li><a href="../who are we.html">من نحن</a></li>
+                  <li class="footer-li"><a href="../Protection and security.html">الحماية والامان</a></li>
+                  <li class="footer-li"><a href="../terms of use.html">شروط الاستخدام </a></li>
+                  <li><a href="../privacy policy.html">سياسة الخصوصية</a></li>
+                </ul>
+              </div>
+              <div class="footer-box">
+                <p>المساعدة</p>
+                <ul>
+                  <li><a href="../common questions.html"> الأسئلة الشائعة</a></li>
+                  <li class="footer-li"><a href="../Connect us.html">تواصل معنا</a></li>
+                </ul>
+              </div>
+              <div class="footer-box-socail">
+                <img src="../img/WhatsApp Image 2023-02-15 at 04.08.29.png" alt="" srcset="">
+                <p>جميع الدروس سيتم بثها على برنامج مايكروسوفت تيمز</p>
+                <br>
+                <p>وسائل الدفع المتاحة</p>
+                <ul class="foot-pay">
+                  <li><img src="../img/Stc_pay.svg.png" alt=""></li>
+                  <li><img src="../img/Mask Group 5.png" alt=""></li>
+                </ul>
+              </div>
+            </div>
+            <div class="copy-right"> 
+              <p> تابعنا على</p>
+              <ul class="foot-social">
+                <li>
+                  <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+    
+            </div>
+            <div class="copy-right">© جميع الحقوق محفوظة | | أكاديمية نور البيان 2023 </div>
+          </footer>
+      <!-- end footer -->
+  
+    <script src="../js/script.js"></script>
+  </body>
+</html>

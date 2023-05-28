@@ -1,0 +1,350 @@
+@media (min-device-width: 768px) and (max-device-width: 1200px ) { 
+    .logo img{
+        width: 150px;
+    }
+
+    header ul li{
+        margin-left: 16px;
+    }
+
+    header ul li a{
+        font-size: 15px;
+    }
+
+    .section-slide-content{
+        padding: 0px 50px 91px 0;
+    }
+
+    .section-slide-content h3{
+        font-size: 34px;
+    }
+
+    .section-slide-content span{
+        font-size: 20px;
+    }
+
+    .section-slide-content button{
+        padding: 23px 30px 29px;
+    }
+
+    .start-content{
+        margin-top: 165px;
+    }
+
+    .start-boxs{
+        display: block;
+    }
+
+    .start-box{
+        padding: 25px 25px 10px;
+    }
+
+    .start-form h2{
+        font-size: 29px;
+    }
+
+    .start-login a{
+        font-size: 12px;
+        padding: 11px 7px 15px;
+    }
+
+    .start-login a span img{
+        width: 20px;
+    }
+
+    .start-form form label,
+    .start-form form label, .start-form form .start-name,
+    .start-cheched{
+        font-size: 14px;
+    }
+
+    .start-form form input{
+        padding: 5px;
+        height: 35px;
+    }
+
+    .start-cheched{
+        margin-top: 10px;
+    }
+
+    .start-cheched_1{
+        margin-bottom: 17px;
+    }
+
+    .form-but{
+        width: 89px;
+        margin: 19px 0;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .start-content button{
+        margin-top: 54px;
+    }
+
+    .start-travel-box-arr span{
+        font-size: 20px;
+    }
+
+    .start-travel-boxs{
+        margin: auto;
+        width: 90%;
+        padding: 30px 25px 40px 37px
+    }
+
+    .start-travel{
+        padding: 0;
+    }
+
+    .start-travel-box img{
+        width: 50px;
+    }
+
+    .se-titel,
+    .teacher .se-titel{
+        font-size: 30px;
+    }
+
+    .se-text,
+    .course-box p,
+    .course-box span{
+        font-size: 20px;
+    }
+
+    .brif-content p{
+        width: 110%;
+        margin-right: -51px;
+        font-size: 20px;
+    }
+
+    .brif-img img{
+        width: 200px;
+        margin-bottom: 82px;
+    }
+
+    .brif-content span{
+        margin-right: -55px
+    }
+
+    .exp-box-text h4{
+        font-size: 22px;
+    }
+
+    .exp-box-text span{
+        font-size: 20px;
+    }
+
+    .exp-sahp{
+        width: 87px;
+    }
+
+    .sep-btn button{
+        margin: 142px 0;
+        padding: 24px 48px;
+        font-size: 20px;
+    }
+
+    .progress-content h2{
+        font-size: 28px;
+    }
+
+    .progress-content span{
+        font-size: 18px;
+    }
+
+    .progress-content {
+        width: 70%;
+    }
+
+    .progress-content-box i{
+        padding: 15px;
+    }
+
+    .progress-content-box-text p{
+        font-size: 22px;
+    }
+
+    .progress-content-box-text span{
+        font-size: 17px;
+    }
+
+    .progress-content-box{
+        margin-top: 45px;
+    }
+
+    .partners h2,
+    .brif-2 h2{
+        font-size: 30px;
+    }
+
+    .brif-2 p{
+        font-size: 20px;
+    }
+
+    .brif-2 button{
+        padding: 12px 44px;
+        font-size: 22px;
+    }
+
+    .footer-box-socail img{
+        width: 180px;
+    }
+
+    .foot-social, .foot-pay img{
+        width: 100px;
+        
+    }
+
+    .foot-social{
+        margin-right: 111px;
+    }
+
+    /* صفحة الكورسات */
+    .course-te span{
+        font-size: 10px !important;
+    }
+
+    .course-box span{
+        font-size: 15px;
+    }
+
+    /* صفحة العثور على معلم */
+    .main-secation .start-sahp{
+        width: 50px;
+    }
+
+    .Find-teacher-nav ul li {
+        padding: 13px 16px;
+        font-size: 15px;
+    }
+
+    .na-cn{
+        font-size: 12px;
+    }
+
+    .Find-teacher-box img{
+        width: 20px;
+        margin-left: -6px;
+        margin-top: -15px;
+    }
+
+    .Find-teacher-box p{
+        font-size: 12px;
+    }
+
+    .Find-teacher-box ul li{
+        font-size: 7px;
+    }
+
+    .Find-teacher-box .ft-about span{
+        font-size: 8px;
+    }
+
+    .Find-teacher-box:nth-child(1) img{
+        height: 50%;
+        margin-top: 81px;
+    }
+
+    .Find-teacher-box button{
+        padding: 3px 9px;
+    }
+
+    .main-secation .start-sahp-2{
+        width: 50px;
+    }
+
+    /* تسجيل الدخول */
+
+    .main-secation .start-sahp{
+        width: 80px;
+    }
+
+    .login span{
+        font-size: 20px;
+    }
+
+    .lofin-btn button:nth-child(1) {
+        margin: 20px;
+    }
+
+    .login span{
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .ar-course-vontent h3{
+        font-size: 30px;
+    }
+
+    .ar-course-img img{
+        margin-top: 101px;
+    margin-left: -15px;
+        width: 200px;
+    }
+
+    .ar-course-vontent span{
+        font-size: 21px;
+    }
+
+    .ar-btn ul li{
+        padding: 8px 79px;
+        font-size: 22px;
+    }
+
+    .question p{
+        font-size: 23px;
+    }
+
+    .question p i{
+        left: -5%;
+    }
+
+    .main-more img{
+        width: 250px;
+    }
+
+    .main-more-info p{
+        width: 55%;
+        margin-left: 50px;
+    }
+
+    .box-opin-cont img{
+        width: 25px;
+    }
+
+    .op-time span,
+    .op-time i{
+        font-size: 15px;
+    }
+
+    .box-opin-cont span{
+        font-size: 15px;
+    }
+
+    .box-opin button{
+        margin-top: 10px;
+        padding: 4px 10px;
+    }
+
+    .op-time{
+        font-size: 20px;
+    }
+
+    .about-me-text img{
+        width: 500px;
+        height: 400px;
+        margin-right: -40px;
+    }
+
+    .skills span{
+        display: block;
+    }
+
+    .about-me-text table{
+        width: 50%;
+    }
+
+    .footer{
+        z-index: 9999;
+    }
+}
